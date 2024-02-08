@@ -1,0 +1,88 @@
+
+@keyframes back {
+        0%{
+            background-image: url(img.jpg);
+        }
+        25%{
+            background-image: url(img2.jpg);
+        }
+        50%{
+            background-image: url(img3.jpg);
+        }
+        75%{
+            background-image: url(img4.jpg);
+        }
+        100%{
+            background-image: url(img5.jpg);
+        }
+}
+.container{
+    height: 400px;
+    width: 300px;
+    background-color: black;
+    margin-left: 500px;
+    margin-top: 100px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.cont1{
+    height: 600px;
+    width: 200px;
+    margin-top: -100px;
+    margin-left: 30px;
+    background-color: cyan;
+    position: absolute;
+    transition: ease;
+    animation: rotate 3s infinite linear;
+}
+@keyframes rotate {
+                from{
+                    transform: rotate(360deg);
+                }
+}
+.box{
+    height: 390px;
+    width: 290px;
+    position: absolute;
+    color: white;
+    margin-top: -395px;
+    margin-left: 505px;
+    background-color: black;
+}
+.text1{
+    margin-left: 60px;
+}
+.inp1{
+    height: 40px;
+    width: 250px;
+    margin-left: 20px;
+    font-size: 30px;
+}
+.inp1:hover{
+    outline: solid cyan;
+}
+.inp2{
+    height: 40px;
+    width: 250px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+.inp2:hover{
+    outline: solid cyan;
+}
+.btn{
+    height: 40px;
+    width: 90px;
+    font-size: 30px;
+   background-color: white;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-left: 100px;
+}
+.btn:hover{
+        background-color: cyan; 
+        border-top-color: red;
+        border-right-color: red;
+}
+
